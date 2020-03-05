@@ -15,6 +15,13 @@
   padding: 6px;
 }
 
+span.beta {
+  font-size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 300;
+  padding: 6px;
+}
+
 .nav-text {
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
