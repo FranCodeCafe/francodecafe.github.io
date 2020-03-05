@@ -1,4 +1,5 @@
 {
+  "homepage": "https://francodecafe.github.io/",
   "name": "francodecafe.github.io",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +40,7 @@
   "devDependencies": {
     "bulma": "^0.8.0",
     "css-loader": "^3.4.2",
+    "gh-pages": "^2.2.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
