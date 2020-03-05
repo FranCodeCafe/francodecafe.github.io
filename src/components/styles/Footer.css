@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow&display=swap');
+
+.footer{
+    padding: 5px;
+    color: #fff;
+}
+
+.footer-text{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}

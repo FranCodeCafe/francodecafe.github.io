@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+.section {
+  padding-bottom: 100px;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.html {
+  background: #F16529;
+}
+
+span.css {
+  background: #66D3FA;
+}
+
+span.js {
+  background: #F0DB4F;
+}
+
+span.react {
+  background: #61DBFB;
+}
+span.bulma {
+  background: #00D1B2;
+}
+.p-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+.profile-pic {
+  height: 100%;
+  display: flex;
+  align-items: middle;
+  justify-content: center;
+}
+.welcome-row{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.welcome-text {
+  width: 60%;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+.courses-button {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  /* background: rgb(54,0,131);
+  background: linear-gradient(135deg, rgba(54,0,131,1) 0%, rgba(107,0,201,1) 100%); */
+  background: rgb(233,115,175);
+  background: linear-gradient(135deg, rgba(233,115,175,1) 0%, rgba(255,201,120,1) 100%);
+}
+
+.contact-text {
+  font-family: Barlow;
+  font-size: 35px;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 70px;
+}
+
+.contact-icons {
+  color: #fff;
+  transition: .2s ease-in-out;
+}
+
+.contact-icons:hover {
+  font-size: 4em;
+}
+
+.cv {
+  font-family: Barlow;
+  font-weight: bold;
+  color: #fff;
+}
+
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.tooltip .tooltiptext {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 40%;
+
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.9;
+}
