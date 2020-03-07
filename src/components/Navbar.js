@@ -11,7 +11,7 @@ class Navbar extends React.Component{
 
                     <label
                     className="navbar-burger burger"
-                    for="nav-toggle-state"
+                    htmlFor="nav-toggle-state"
                     >
                         <span aria-hidden="true" />
                         <span aria-hidden="true" />
