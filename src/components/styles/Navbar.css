@@ -28,5 +28,13 @@ span.beta {
 }
 
 .contact-icons {
-    color: palevioletred;
-  }
+  color: palevioletred;
+}
+
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ .navbar-menu {
+  display: block;
+}

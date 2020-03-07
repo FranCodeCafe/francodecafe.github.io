@@ -9,12 +9,16 @@ class Navbar extends React.Component{
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/"><img src={pink_cup} alt="FranCodeCafe_Logo"/><h1 className="logo-text">FranCodeCafé</h1><span className="beta">Beta Version</span></a>
 
-                    <div className="navbar-burger burger" data-target="Options">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                    <label
+                    className="navbar-burger burger"
+                    for="nav-toggle-state"
+                    >
+                        <span aria-hidden="true" />
+                        <span aria-hidden="true" />
+                        <span aria-hidden="true" />
+                    </label>
                 </div>
+                <input type="checkbox" id="nav-toggle-state" />
 
                 <div className="navbar-menu">
                     <div className="navbar-end">
