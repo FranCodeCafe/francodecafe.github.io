@@ -86,3 +86,13 @@ span.underline {
       transform: translateY(-25px);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .hero{
+    padding-bottom: 5px;
+  }
+  .hero-text {
+    font-size: 30px;
+    padding: 0px 40px 0px 40px;
+  }
+}
