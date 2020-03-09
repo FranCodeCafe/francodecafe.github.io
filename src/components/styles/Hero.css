@@ -87,7 +87,7 @@ span.underline {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .hero{
     padding-bottom: 5px;
   }
