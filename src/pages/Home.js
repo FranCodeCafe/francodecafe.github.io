@@ -16,7 +16,7 @@ function Home(){
                     <h1 className="title has-text-centered">
                         <img src={about} alt="About me" height="700" width="700"/>
                     </h1>
-                        <div className="columns is-mobile">
+                        <div className="columns">
                             <div className="column is-7">
                                 <p className="p-text">Tengo experiencia en proyectos asociados al medio ambiente. Sin embargo, ahora busco colaborar en el área de mi mayor interés, desarrollo front-end.</p>
                                 <p className="p-text">Recientemente me he certificado en desarrollo web online, desarrollo de SPA con JavaScript Vanilla y ReactJS. Aún no tengo experiencia formal trabajando en el área, así que esta página es mi carta de presentación:</p>
@@ -24,7 +24,7 @@ function Home(){
                                 </p>
                             </div>
                             <div className="column">
-                                <div className="columns is-mobile is-multiline">
+                                <div className="columns is-multiline">
                                     <div className="column is-12">
                                         <div className="profile-pic">
                                             <img src={fran_circle} alt="Fran Salinas" height="250" width="250" />
@@ -46,13 +46,13 @@ function Home(){
                     <h1 className="title has-text-centered">
                         <img src={skills} alt="Skills" height="700" width="700"/>
                     </h1>
-                        <div className="columns is-mobile">
+                        <div className="columns">
                             <div className="column has-text-centered">
                                 <div className="courses-button">
                                     <a target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing" className="button is-danger is-rounded p-text">{/* <i className="fas fa-star"> </i>*/}¡Por aquí!</a>
                                 </div>
                             </div>
-                            <div className="column is-9">
+                            <div className="column is-7">
                                 <p className="p-text">Tengo conocimientos en HTML, CSS, JavaScript, ReactJS, PHP y un poco de C++ y Python, pues en etapas anteriores he jugado con Arduino y RaspberryPi.</p>
                                 <p className="p-text">Me considero empática y trabajo bien en equipo, entre mis compañeros suelo mantener una comunicación cordial y un ambiente agradable para trabajar.</p>
                                 <p className="p-text">Si hay algo que no sepa, preguntaré y buscaré por toda la web, hasta que logre realizarlo. Además, intento mantenerme en constante aprendizaje, dadas las nuevas tecnologías que van surgiendo.</p>
@@ -75,7 +75,7 @@ function Home(){
                                 <p className="p-text">Si me consideras como freelance, me comprometeré a plasmar y transmitir todas tus ideas y necesidades en la pantalla.</p>
                             </div>
                         </div> */}
-                        <div class="tile is-ancestor is-mobile">
+                        <div class="tile is-ancestor">
                             <div class="tile is-parent">
                                 <div class="tile is-child box">
                                     {/* <p class="title">Empresa</p> */}

@@ -8,7 +8,7 @@ class Hero extends React.Component{
             <div>
                 <section id="hero" className="hero">
                     <div className="hero-body">
-                        <div className="container is-mobile has-text-centered">
+                        <div className="container has-text-centered">
                             <div className="columns">
                                 <div className="column">
                                     <svg version="1.1" id="pink_cup_steam" x="0px" y="0px" width="400" height="400" viewBox="0 -44.16 188.266 303.84" enable-background="new 0 -44.16 188.266 303.84">

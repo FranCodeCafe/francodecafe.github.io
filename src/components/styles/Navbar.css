@@ -25,7 +25,14 @@ span.beta {
 .nav-text {
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
+  text-align: center;
 }
+
+/* .navbar-menu {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+} */
 
 .contact-icons {
   color: palevioletred;
@@ -37,4 +44,19 @@ span.beta {
 
 #nav-toggle-state:checked ~ .navbar-menu {
   display: block;
+}
+
+@media only screen
+and (max-width: 768px){
+    .nav-text{
+        font-size: 14px;
+    }
+    .logo-text {
+      font-size: 24px;
+      padding: 6px;
+    }
+
+    span.beta {
+      font-size: 14px;
+    }
 }

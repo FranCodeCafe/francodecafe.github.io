@@ -34,7 +34,7 @@ class Navbar extends React.Component{
                         <a href="#contact" className="navbar-item nav-text">
                             Contacto
                         </a>
-                        <div className="navbar-item">
+                        {/* <div className="navbar-item">
                             <div className="field is-grouped">
                             <p className="control">
                                 <button className="button is-dark is-rounded is-small" disabled><i className="fas fa-moon"></i></button>
@@ -43,7 +43,7 @@ class Navbar extends React.Component{
                                 <button className="button is-dark is-rounded is-small nav-text" onClick="darkMode()" disabled>English</button>
                             </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </nav>
