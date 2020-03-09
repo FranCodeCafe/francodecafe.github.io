@@ -25,17 +25,10 @@ span.beta {
 .nav-text {
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
-  text-align: center;
 }
 
-/* .navbar-menu {
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-} */
-
-.contact-icons {
-  color: palevioletred;
+.navbar-item {
+  text-align: center;
 }
 
 #nav-toggle-state {

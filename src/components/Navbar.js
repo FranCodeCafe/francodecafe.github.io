@@ -34,16 +34,16 @@ class Navbar extends React.Component{
                         <a href="#contact" className="navbar-item nav-text">
                             Contacto
                         </a>
-                        {/* <div className="navbar-item">
-                            <div className="field is-grouped">
-                            <p className="control">
-                                <button className="button is-dark is-rounded is-small" disabled><i className="fas fa-moon"></i></button>
-                            </p>
-                            <p className="control">
-                                <button className="button is-dark is-rounded is-small nav-text" onClick="darkMode()" disabled>English</button>
-                            </p>
-                            </div>
-                        </div> */}
+                        {/* <a className="navbar-item">
+                            <button className="button is-dark is-rounded is-small" disabled>
+                                <i className="fas fa-moon"></i>
+                            </button>
+                        </a>
+                        <a className="navbar-item">
+                            <button className="button is-dark is-rounded is-small nav-text" disabled>
+                                English
+                            </button>
+                        </a> */}
                     </div>
                 </div>
             </nav>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Home.css';
 import Hero from '../components/Hero';
-import fran_circle from '../images/fran-circle.png';
+import fran_circle from '../images/fran-circle-pink.png';
 import about from '../images/header-about-me.png';
 import skills from '../images/header-skills.png';
 import compromise from '../images/header-compromise.png';
@@ -48,15 +48,15 @@ function Home(){
                     </h1>
                         <div className="columns">
                             <div className="column has-text-centered">
-                                <div className="courses-button">
-                                    <a target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing" className="button is-danger is-rounded p-text">{/* <i className="fas fa-star"> </i>*/}¡Por aquí!</a>
-                                </div>
+                                {/* <div className="courses-button">
+                                    <a target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing" className="button is-danger is-rounded p-text">¡Por aquí!</a>
+                                </div> */}
                             </div>
                             <div className="column is-7">
                                 <p className="p-text">Tengo conocimientos en HTML, CSS, JavaScript, ReactJS, PHP y un poco de C++ y Python, pues en etapas anteriores he jugado con Arduino y RaspberryPi.</p>
                                 <p className="p-text">Me considero empática y trabajo bien en equipo, entre mis compañeros suelo mantener una comunicación cordial y un ambiente agradable para trabajar.</p>
                                 <p className="p-text">Si hay algo que no sepa, preguntaré y buscaré por toda la web, hasta que logre realizarlo. Además, intento mantenerme en constante aprendizaje, dadas las nuevas tecnologías que van surgiendo.</p>
-                                <p className="p-text">Desde acá puedes acceder a las certificaciones que he conseguido.</p>
+                                <p className="p-text"><a className="courses-link" target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing">Desde acá</a> puedes acceder a las certificaciones que he conseguido.</p>
                                 <p className="p-text">¡Nunca hay que dejar de aprender!</p>
                             </div>
                         </div>
