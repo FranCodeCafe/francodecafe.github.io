@@ -123,8 +123,7 @@ span.bulma {
   opacity: 0.9;
 }
 
-@media only screen
-and (max-width: 768px){
+@media screen and (max-width: 360px) {
   .contact-text {
     font-size: 26px;
   }
