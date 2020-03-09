@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
     .footer-text{
         font-size: 14px;
     }
