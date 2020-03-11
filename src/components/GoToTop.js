@@ -2,51 +2,51 @@ import React from 'react';
 import './styles/GoToTop.css';
 
 class GoToTop extends React.Component {
-  state = {
-      intervalId: 0,
-      thePosition: false
-  };
+    state = {
+        intervalId: 0,
+        thePosition: false
+    };
 
-  componentDidMount() {
-      document.addEventListener("scroll", () => {
-          if (window.scrollY > 170) {
-              this.setState({ thePosition: true })
-          } else {
-              this.setState({ thePosition: false })
-          }
-      });
-      window.scrollTo(0, 0);
-  }
+    componentDidMount() {
+        document.addEventListener("scroll", () => {
+            if (window.scrollY > 170) {
+                this.setState({ thePosition: true })
+            } else {
+                this.setState({ thePosition: false })
+            }
+        });
+        window.scrollTo(0, 0);
+    }
 
-  onScrollStep = () => {
-      if (window.pageYOffset === 0){
-          clearInterval(this.state.intervalId);
-      }
-      window.scroll(0, window.pageYOffset - this.props.scrollStepInPx);
-  }
+    onScrollStep = () => {
+        if (window.pageYOffset === 0){
+            clearInterval(this.state.intervalId);
+        }
+        window.scroll(0, window.pageYOffset - this.props.scrollStepInPx);
+    }
 
-  scrollToTop = () => {
-      let intervalId = setInterval(this.onScrollStep, this.props.delayInMs);
-      this.setState({ intervalId: intervalId });
-  }
+    scrollToTop = () => {
+        let intervalId = setInterval(this.onScrollStep, this.props.delayInMs);
+        this.setState({ intervalId: intervalId });
+    }
 
-  renderGoTopIcon = () => {
-      if (this.state.thePosition){
-          return (
-              <div className="go-top" onClick={this.scrollToTop}>
-                  Go Top
-              </div>
-          )
-      }
-  }
+    renderGoTopIcon = () => {
+        if (this.state.thePosition){
+            return (
+                <div className="go-top" onClick={this.scrollToTop}>
+                    Go Top
+                </div>
+            )
+        }
+    }
 
-  render(){
-      return (
-          <React.Fragment>
-              {this.renderGoTopIcon()}
-          </React.Fragment>
-      )
-  }
+    render(){
+        return (
+            <React.Fragment>
+                {this.renderGoTopIcon()}
+            </React.Fragment>
+        )
+    }
 }
 
 export default GoToTop;

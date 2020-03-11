@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow&display=swap');
 
 html {
@@ -55,11 +54,52 @@ span.bulma {
   text-align: justify;
   margin-bottom: 16px;
 }
+.courses{
+  /* border: 1px solid lightblue; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.course_1{
+  position: relative;
+  top: 0px;
+  left: 160px;
+  transform: rotate(-10deg);
+  transition: transform .25s ease-in-out;
+  transform-origin: left top;
+}
+.course_2{
+  position: relative;
+  top: -10px;
+  left: 20px;
+  transform: rotate(25deg);
+  transition: transform .25s ease-in-out;
+  /* transition: .3s; */
+}
+.course_3{
+  position: relative;
+  left: -160px;
+  transform: rotate(5deg);
+  transition: transform .25s ease-in-out;
+  transform-origin: left top;
+}
+.courses:hover .course_1{
+  transform: translate3d(60px, -170px, 0px) rotateZ(0deg);
+}
+.courses:hover .course_2{
+  transform: rotateZ(0deg);
+}
+.courses:hover .course_3{
+  transform: translate3d(-20px, 150px, 0px) rotateZ(0deg);
+}
 .courses-button {
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
 }
 
 .courses-link {
@@ -128,8 +168,66 @@ span.bulma {
   visibility: visible;
   opacity: 0.9;
 }
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .course_1{
+    height: 150px;
+    width: 194px;
+    margin: 30px;
+  }
+  .course_2{
+    height: 150px;
+    width: 194px;
+    margin: 30px;
+  }
+  .course_3{
+    height: 150px;
+    width: 194px;
+    margin: 30px;
+  }
+  .courses:hover .course_1{
+    transform: translate3d(-100px, 0px, 0px) rotateZ(0deg);
+  }
+  .courses:hover .course_2{
+    transform: translate3d(0px, 10px, 0px) rotateZ(0deg);
+  }
+  .courses:hover .course_3{
+    transform: translate3d(140px, 0px, 0px) rotateZ(0deg);
+  }
+}
 
 @media screen and (max-width: 600px) {
+  .course_1{
+    position: relative;
+    top: 5px;
+    left: 50px;
+    height: 77px;
+    width: 100px;
+    transform: rotate(-20deg);
+  }
+  .course_2{
+    position: relative;
+    top: -5px;
+    left: 10px;
+    height: 77px;
+    width: 100px;
+    transform: rotate(25deg);
+  }
+  .course_3{
+    position: relative;
+    left: -60px;
+    height: 77px;
+    width: 100px;
+    transform: rotate(-5deg);
+  }
+  .courses:hover .course_1{
+    transform: translate3d(-55px, 0px, 0px) rotateZ(0deg);
+  }
+  .courses:hover .course_2{
+    transform: translate3d(-10px, 10px, 0px) rotateZ(0deg);
+  }
+  .courses:hover .course_3{
+    transform: translate3d(65px, 5px, 0px) rotateZ(0deg);
+  }
   .contact-text {
     font-size: 26px;
   }

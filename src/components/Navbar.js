@@ -35,11 +35,11 @@ class Navbar extends React.Component{
                             Contacto
                         </a>
                         {/* <a className="navbar-item">
-                            <button className="button is-dark is-rounded is-small" disabled>
+                            <button className="button is-dark is-rounded is-small" onclick="myFunction()">
                                 <i className="fas fa-moon"></i>
                             </button>
-                        </a>
-                        <a className="navbar-item">
+                        </a> */}
+                        {/* <a className="navbar-item">
                             <button className="button is-dark is-rounded is-small nav-text" disabled>
                                 English
                             </button>

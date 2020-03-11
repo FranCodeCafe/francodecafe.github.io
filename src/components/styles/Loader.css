@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.cup{
+    height: 76px;
+    width: 90px;
+    border: 4px solid white;
+    border-radius: 2px 2px 30px 30px;
+    background: url(../images/coffee.png);
+    box-shadow: 0px 0px 0px 4px #fca8c6;
+    background-repeat: repeat-x;
+    background-position: 0px 140px;
+    animation: fill 2.8s infinite;
+    vertical-align: 50%;
+}
+@keyframes fill{
+    0%{
+        background-position: 0px 140px;
+    }
+    20%{
+        background-position: -450px 100px;
+    }
+    40%{
+        background-position: -900px 50px;
+    }
+    80%{
+        background-position: -1350px -40px;
+    }
+    100%{
+        background-position: 0px 140px;
+    }
+}
+.handle{
+    height: 42px;
+    width: 20px;
+    background-color: transparent;
+    border: 4px solid #fca8c6;
+    position: relative;
+    right: 32px;
+    top: -10px;
+    border-radius: 60px 30px 20px 55px;
+}
+.loading{
+    color: #fca8c6;
+    position: relative;
+    text-align: center;
+    top: 28px;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+}

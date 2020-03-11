@@ -9,8 +9,8 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path="/" component={Home}/>
-        </Switch>  
-      </Layout>  
+        </Switch>
+      </Layout>
     </BrowserRouter>
   );
 }

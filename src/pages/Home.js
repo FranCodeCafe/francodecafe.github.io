@@ -5,6 +5,9 @@ import fran_circle from '../images/fran-circle-pink.png';
 import about from '../images/header-about-me.png';
 import skills from '../images/header-skills.png';
 import compromise from '../images/header-compromise.png';
+import course_1 from '../images/diploma-spa-javascript.jpg';
+import course_2 from '../images/diploma-react.jpg';
+import course_3 from '../images/diploma-html5-css3.jpg';
 
 function Home(){
     return(
@@ -48,12 +51,16 @@ function Home(){
                     </h1>
                         <div className="columns">
                             <div className="column has-text-centered">
-                                {/* <div className="courses-button">
-                                    <a target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing" className="button is-danger is-rounded p-text">¡Por aquí!</a>
-                                </div> */}
+                                <a target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing">
+                                    <div className="courses">
+                                        <img alt="Course 1" src={course_1} height="200" width="200" className="course_1"/>
+                                        <img alt="Course 2" src={course_2} height="200" width="200"  className="course_2"/>
+                                        <img alt="Course 3" src={course_3} height="200" width="200"  className="course_3"/>
+                                        </div>
+                                </a>
                             </div>
                             <div className="column is-7">
-                                <p className="p-text">Tengo conocimientos en HTML, CSS, JavaScript, ReactJS, PHP y un poco de C++ y Python, pues en etapas anteriores he jugado con Arduino y RaspberryPi.</p>
+                                <p className="p-text">Tengo conocimientos en HTML, CSS y PHP. Y últimamente he estado aprendiendo JavaScript y ReactJS. Además, sé un poco de C++ y Python, pues en etapas anteriores he jugado con Arduino y RaspberryPi.</p>
                                 <p className="p-text">Me considero empática y trabajo bien en equipo, entre mis compañeros suelo mantener una comunicación cordial y un ambiente agradable para trabajar.</p>
                                 <p className="p-text">Si hay algo que no sepa, preguntaré y buscaré por toda la web, hasta que logre realizarlo. Además, intento mantenerme en constante aprendizaje, dadas las nuevas tecnologías que van surgiendo.</p>
                                 <p className="p-text"><a className="courses-link" target="noopener_noreferrer" href="https://drive.google.com/drive/folders/1Le07CRrpDnhmW0MHif4tW6HdAK6RIpxc?usp=sharing">Desde acá</a> puedes acceder a las certificaciones que he conseguido.</p>

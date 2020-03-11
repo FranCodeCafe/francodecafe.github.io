@@ -1,13 +1,18 @@
 import React from 'react';
-import '../pages/styles/Home.css';
+import '../global.css';
 
 class DarkMode extends React.Component{
+
+    myFunction = () => {
+        let element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+
     render(){
         return(
-            function myFunction() {
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-            }
+            <div className="DarkMode">
+                <button onclick='myFunction()'>Toggle dark mode</button>
+            </div>
         );
     }
 }
