@@ -117,7 +117,7 @@ function Home(){
                                             <a target="noopener_noreferrer" href="https://www.linkedin.com/in/fransalinascastillo/">
                                                 <i className="contact-icons fab fa-linkedin-in fa-3x"></i>
                                             </a>
-                                            <span class="tooltiptext">Mi perfil en LinkedIN</span>
+                                            <span class="tooltiptext">Ve mi perfil en LinkedIN</span>
                                         </div>
                                     </div>
                                     <div className="column">
@@ -125,7 +125,7 @@ function Home(){
                                             <a target="noopener_noreferrer" href="https://twitter.com/franlitchi">
                                                 <i className="contact-icons fab fa-twitter fa-3x"></i>
                                             </a>
-                                            <span class="tooltiptext">Mi perfil en Twitter</span>
+                                            <span class="tooltiptext">Ve mi perfil en Twitter</span>
                                         </div>
                                     </div>
                                     <div className="column">
@@ -138,7 +138,7 @@ function Home(){
                                     </div>
                                     <div className="column">
                                         <div className="tooltip">
-                                            <a target="noopener_noreferrer" href="https://drive.google.com/file/d/1Rx3sY1I5rDjo_K8pfORxjcyL1jY56x_o/view?usp=sharing">
+                                            <a target="noopener_noreferrer" href="https://drive.google.com/file/d/1ezrvNNMe9iPolowZElQVFAH8q8j1LRvo/view?usp=sharing">
                                                 <i className="contact-icons cv fas fa-3x">CV</i>
                                             </a>
                                             <span class="tooltiptext">Descarga mi CV</span>
