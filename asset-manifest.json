@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d46d71f5.chunk.css",
-    "main.js": "/static/js/main.202b95c8.chunk.js",
-    "main.js.map": "/static/js/main.202b95c8.chunk.js.map",
+    "main.css": "/static/css/main.33890446.chunk.css",
+    "main.js": "/static/js/main.68658e39.chunk.js",
+    "main.js.map": "/static/js/main.68658e39.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.15957bf0.js",
     "runtime-main.js.map": "/static/js/runtime-main.15957bf0.js.map",
     "static/css/2.c01a16fc.chunk.css": "/static/css/2.c01a16fc.chunk.css",
-    "static/js/2.eb0a6187.chunk.js": "/static/js/2.eb0a6187.chunk.js",
-    "static/js/2.eb0a6187.chunk.js.map": "/static/js/2.eb0a6187.chunk.js.map",
+    "static/js/2.862d9258.chunk.js": "/static/js/2.862d9258.chunk.js",
+    "static/js/2.862d9258.chunk.js.map": "/static/js/2.862d9258.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9c165e65d493c647d2f7f3278b940b63.js": "/precache-manifest.9c165e65d493c647d2f7f3278b940b63.js",
+    "precache-manifest.17b64cbd90f8491871c97a7ef362144f.js": "/precache-manifest.17b64cbd90f8491871c97a7ef362144f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c01a16fc.chunk.css.map": "/static/css/2.c01a16fc.chunk.css.map",
-    "static/css/main.d46d71f5.chunk.css.map": "/static/css/main.d46d71f5.chunk.css.map",
-    "static/js/2.eb0a6187.chunk.js.LICENSE.txt": "/static/js/2.eb0a6187.chunk.js.LICENSE.txt",
-    "static/media/fran-circle.png": "/static/media/fran-circle.181cd53d.png",
+    "static/css/main.33890446.chunk.css.map": "/static/css/main.33890446.chunk.css.map",
+    "static/js/2.862d9258.chunk.js.LICENSE.txt": "/static/js/2.862d9258.chunk.js.LICENSE.txt",
+    "static/media/diploma-html5-css3.jpg": "/static/media/diploma-html5-css3.54f1a473.jpg",
+    "static/media/diploma-react.jpg": "/static/media/diploma-react.eb00e44d.jpg",
+    "static/media/diploma-spa-javascript.jpg": "/static/media/diploma-spa-javascript.32f4c04f.jpg",
+    "static/media/fran-circle-pink.png": "/static/media/fran-circle-pink.8be8e071.png",
     "static/media/header-about-me.png": "/static/media/header-about-me.eb051605.png",
     "static/media/header-compromise.png": "/static/media/header-compromise.ce5d06d8.png",
     "static/media/header-skills.png": "/static/media/header-skills.2f0ccfa8.png",
@@ -23,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.15957bf0.js",
     "static/css/2.c01a16fc.chunk.css",
-    "static/js/2.eb0a6187.chunk.js",
-    "static/css/main.d46d71f5.chunk.css",
-    "static/js/main.202b95c8.chunk.js"
+    "static/js/2.862d9258.chunk.js",
+    "static/css/main.33890446.chunk.css",
+    "static/js/main.68658e39.chunk.js"
   ]
 }
