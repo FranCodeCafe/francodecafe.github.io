@@ -21,8 +21,8 @@ function Home(){
                     </h1>
                         <div className="columns">
                             <div className="column is-7">
-                                <p className="p-text">Tengo experiencia en proyectos asociados al medio ambiente. Sin embargo, ahora busco colaborar en el área de mi mayor interés, desarrollo front-end.</p>
-                                <p className="p-text">Recientemente me he certificado en desarrollo web online, desarrollo de SPA con JavaScript Vanilla y ReactJS. Aún no tengo experiencia formal trabajando en el área, así que esta página es mi carta de presentación:</p>
+                                <p className="p-text">Tengo experiencia como Quality Assurance en proyectos con el <span className="mma">Ministerio del Medio Ambiente</span> <a className="courses-link" target="noopener_noreferrer" href="https://drive.google.com/file/d/1ezrvNNMe9iPolowZElQVFAH8q8j1LRvo/view?usp=sharing">(Ver CV)</a>. Sin embargo, ahora busco colaborar en el área de mi mayor interés, desarrollo front-end.</p>
+                                <p className="p-text">Recientemente me he certificado en animaciones para la web, desarrollo web online, desarrollo de SPA con JavaScript Vanilla y ReactJS. Aún no tengo experiencia formal trabajando en el área, así que esta página es mi carta de presentación:</p>
                                 <p className="p-text">¡Bienvenidos! Esta web está desarrollada con <span className="html">HTML</span>, <span className="css">CSS</span>, <span className="js">JavaScript</span>, <span className="react">ReactJS</span> y <span className="bulma">Bulma</span>.
                                 </p>
                             </div>
